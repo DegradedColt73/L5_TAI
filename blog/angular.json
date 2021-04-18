@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "d6b9d39f-5ee7-4ada-9259-58d607917ab2"
+    "analytics": "02822499-1356-4b29-a5c1-b3b37f39d2eb"
   },
   "version": 1,
   "newProjectRoot": "projects",
@@ -31,7 +31,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": []
           },
@@ -94,9 +96,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css",
-              "node_modules/font-awesome/css/font-awesome.min.css"
+              "src/styles.css"
             ],
             "scripts": []
           }
