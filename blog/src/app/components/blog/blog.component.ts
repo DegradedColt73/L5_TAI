@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, Input, OnInit} from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({
@@ -8,6 +8,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class BlogComponent implements OnInit {
 
+  @Input() id!: number;
   @Input() filterText!: string;
   public items$:any;
 
