@@ -9,10 +9,12 @@ export class BlogItemComponent implements OnInit {
 
   @Input() image:string;
   @Input() text:string;
+  @Input() id:number;
 
   constructor() { 
     this.image = '';
     this.text = '';
+    this.id = 0;
   }
 
   ngOnInit(): void {
